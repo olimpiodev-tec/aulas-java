@@ -11,7 +11,6 @@ public class Figuras {
         float raio = entrada.nextFloat();
         
         float area = (float) (Math.PI * (raio * raio));
-        double areaD = Math.PI * (raio * raio);
 
         System.out.println("A área do círculo é: " + area);
         System.out.printf("%s%.2f", "A área do círculo é: ", area);
